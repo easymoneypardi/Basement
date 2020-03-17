@@ -6,37 +6,174 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Basement - Aarhus Erhversakademis bar</title>
 </head>
 
-<body>
+<body>    
+   <div class="grid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-1 col-md-2">
+            <div class="grid-line"></div>
+          </div>
+          <div class="col-md-2">
+            <div class="grid-line"></div>
+          </div>
+          <div class="col-md-2">
+            <div class="grid-line"></div>
+          </div>
+          <div class="col-md-2">
+            <div class="grid-line"></div>
+          </div>
+          <div class="col-md-2">
+            <div class="grid-line" style="margin-right:-50px;border-right:1px solid #ccc"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <div id="banner">
         <div id="bannerText">
             <h1>Basement</h1>
+            <span class="hero__scroll" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800">
+				Scroll down <br>
+				<i class="chevron bottom"></i>
+			</span>
+        </div>
+    </div>
+     <div class="absolute above">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-md-offset-1 col-md-2">
+                <div class="lg-green rellax"
+                  data-rellax-speed="2"
+                  style="transform: rotate(45deg);">
+                </div>
+                <div class="sm-green rellax"
+                  data-rellax-speed="3"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+              
+              <div class="col-md-1">
+                <div class="lg-purple rellax"
+                  data-rellax-speed="3"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+              
+              </div>
+         </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" class="btn btn-info btn-lg" title="Go to top">Top</button>
+    <div data-aos="fade-up">
+        <h2 id="about">Om Basement</h2>
+        <div id="flexcontainer">
+            <p>Basement befinder sig på Sønderhøj 30, 8260 Viby J. Basement er stedet hvor du med dine venner kan tage ned enten og nyde en kold øl eller en varm kop kaffe. Basement har altid åben for gruppearbejde og betjening foregår fra kl. 11.30, Basement er derfor det perfekte sted og komme ned enten når i sidder og er gået helt kolde i jeres projekt og trænger til at få tankerne lidt væk over et spil eller når i endelig kan fejre at i har afleveret jeres projekt eller har været oppe i jeres eksamen. Derudover har Basement også en masse forskellige arrangementer som bliver holdt, hvor man kan få mulighed for at møde andre end folk fra sit eget studie.</p>
+            <h3>Vi glæder os til at tage imod jer i Basement.</h3>
         </div>
     </div>
 
-   <h2 id="about">Om Basement</h2>
-    <div id="flexcontainer">
-        <p>Basement befinder sig på Sønderhøj 30, 8260 Viby J. Basement er stedet hvor du med dine venner kan tage ned enten og nyde en kold øl eller en varm kop kaffe. Basement har altid åben for gruppearbejde og betjening forgår fra kl. 11.30, Basement er derfor det perfekte sted og komme ned enten når i sidder og er gået helt kolde i jeres projekt og trænger til at få tankerne lidt væk over et spil eller når i endelig kan fejre at i har afleveret jeres projekt eller har været oppe i jeres eksamen. Derudover har Basement også en masse forskellige arrangementer som bliver holdt, hvor man kan få mulighed for at møde andre end folk fra sit eget studie.</p>
-        <h3>Vi glæder os til at tage imod jer i Basement.</h3>
-    </div>
-
-   <video id="video" src="video/beer.mp4" controls>
+    <video id="video" src="video/beer.mp4" controls>
         <source src="video/beer.mp4" type="video/mp4">
     </video>
-   
-   <div id="flexcontainer2">
-   <h2 id="menu">MENU</h2>
-   <button type="button" id="getDrinks" class="btn btn-info btn-lg">Drinks</button>
-   <button type="button" id="getBeers" class="btn btn-info btn-lg">Øl</button>
-   <button type="button" id="getGames" class="btn btn-info btn-lg">Brætspil</button>
-   <div id="output"></div>
-   </div>
-   
+
+    <div id="flexcontainer2">
+        <h2 id="menu">MENU</h2>
+        <button type="button" id="getDrinks" class="btn btn-info btn-lg">Drinks</button>
+        <button type="button" id="getBeers" class="btn btn-info btn-lg">Øl</button>
+        <button type="button" id="getGames" class="btn btn-info btn-lg">Brætspil</button>
+        <div id="output"></div>
+        <a href="#menu"><button type="button" id="menuTop" class="btn btn-info btn-sm">^</button></a>
+    </div>
+
+    <div class="gallery" id="gallery">
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 2">
+    <img class="img-fluid" src="images/two-smiling-women-sitting-on-wooden-bench-1267696%20(1).jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="images/alphabet-bar-blue-bright-316149.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="images/person-pouring-liquid-into-smoking-glass-container-946118.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 2">
+    <img class="img-fluid" src="images/pan-holding-pilsner-inside-bar-1267360%20(1).jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 2">
+    <img class="img-fluid" src="images/photo-of-corona-extra-bottles-on-bucket-1089932%20(1).jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="images/women-sitting-on-bench-restaurant-1267693.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+</div>
+<!-- Grid row -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script type="text/javascript" src="js/rellax.js"></script>
+    <script>
+    	var rellax = new Rellax('.rellax', {
+        // center: true
+        callback: function(position) {
+            // callback every position change
+            console.log(position);
+        }
+      });
+    </script>
     <script src="js/script.js"></script>
 </body>
 <footer>
+    <div class="footer">
 
+        <div id="abning">
+            <h2>ÅBNINGSTIDER</h2>
+            <p>Torsdag: 11.30 - luk<br>Fredag: 11.30 - luk</p>
+        </div>
+
+        <div id="adresse">
+            <h2>ADRESSE</h2>
+            <p>Basement</p>
+            <p>Sønderhøj 30</p>
+            <p>8260 Viby J</p>
+        </div>
+
+        <div id="telefon">
+            <h2>TELEFON</h2>
+            <p>72 28 60 59</p>
+        </div>
+
+        <div id="mail">
+            <h2>MAIL</h2>
+            <p>sogr@eaaa.dk</p>
+        </div>
+
+    </div>
+    <div id="flexcontainer3">
+        <a href="https://www.facebook.com/BasementBAAA/" target="_blank"><img src="images/faceicon.png" alt="facebook" id="faceicon"></a>
+        <a href="https://www.instagram.com/basementbaaa/" target="_blank"><img src="images/instaicon.png" alt="instagram" id="instaicon"></a>
+    </div>
 </footer></html>
