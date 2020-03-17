@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 12em;
+    font-family: 'Courier New', serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+#banner {
+    background-image: url(../images/four-women-chatting-while-sitting-on-bench-1267697.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 2%;
+    background-attachment: fixed;
+}
+
+#bannerText {
+    text-align: center;
+    color: white;
+    padding-top: 30%;
+}
+
+#about {
+    margin: 5% 0 2% 18%;
+    font-family: 'Raleway', sans-serif;
+}
+
+#flexcontainer {
+    margin: 0 18% 0 18%;
+    font-family: 'Raleway', sans-serif;
+}
+
+#video {
+    width: 70%;
+    margin: 5% 0 5% 15%;
+}
+
+#flexcontainer2 {
+    background-color: #056476;
+    text-align: center;
+    padding: 0 0 5% 0;
+}
+
+#menu {
+    color: white;
+    margin: 0 80% 0 0;
+    padding: 2% 0 0 0;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'Courier New', serif;
+    font-weight: bold;
+}
+
+#flexcontainer2 button {
+    font-family: 'Courier New', serif;
+    font-weight: bold;
+    box-shadow: 3px 3px 8px black;
+    margin: 0 2% 2% 5%;
+}
+
+#output {
+    background-color: #739FB4;
+    padding: 10% 10% 20% 10%;
+    margin: 0 20% 5% 20%;
+    border-radius: 5%;
+    color: white;
+    font-family: 'Courier New', serif;
+    font-weight: bold;
+}
